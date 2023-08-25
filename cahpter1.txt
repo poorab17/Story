@@ -1,0 +1,9 @@
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var randomChosenColour = "elementId"; // Replace with the actual ID you want to select
+
+            // Add the 'active' class to the element with the ID from randomChosenColour
+            $(`#${randomChosenColour}`).addClass('active');
+        });
+    </script>
